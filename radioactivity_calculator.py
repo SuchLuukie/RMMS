@@ -8,5 +8,8 @@ class Calculator():
 
 
 	"""
-	Function to calculate
+	Function that calculates remaining radioactive material.
+	Return: An array that can be put into a graph [time/material]
 	"""
+	def plot_decay(self):
+		pass

@@ -1,0 +1,33 @@
+{
+	"schedule": {
+		"monday": {
+			"max_patients": 10,
+			"schedule": []
+		},
+		"tuesday": {
+			"max_patients": 10,
+			"schedule": []
+		},
+		"wednesday": {
+			"max_patients": 10,
+			"schedule": []
+		},
+		"thursday": {
+			"max_patients": 10,
+			"schedule": []
+		},
+		"friday": {
+			"max_patients": 10,
+			"schedule": []
+		},
+		"saturday": {
+			"max_patients": 3,
+			"schedule": []
+		},
+		"sunday": {
+			"max_patients": 3,
+			"schedule": []
+		}
+	},
+	"patients": []
+}

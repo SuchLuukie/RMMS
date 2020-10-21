@@ -19,5 +19,3 @@ if it's not sufficient, then it displays the patients to cancel their appointmen
 There are 2 search windows.
 The first is to view the amount of radioactive material (Mo-99) at any time. (Input is Datetime.)
 The second is to view the amount of radioactive material (Tc-99m) in the patient at any point after their appointment. (Input patient name and Datetime.)
-
-T

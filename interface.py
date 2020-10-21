@@ -24,7 +24,7 @@ class Interface():
 		self.patient_output = Text(self.master)
 
 		self.patient_input_name.insert(END, "Name")
-		self.patient_input_time.insert(END, "Datetime")
+		self.patient_input_time.insert(END, "yyyy/mm/dd, hh:mm:ss")
 
 		self.patient_input_name.place(x=50, y=50)
 		self.patient_input_time.place(x=50, y=70)
@@ -44,7 +44,7 @@ class Interface():
 		self.radioactive_material_label = Label(self.master, text="Retrieve Radioactive Material in Cow")
 		self.radioactive_material_output = Text(self.master)
 
-		self.radioactive_material_time.insert(END, "Datetime")
+		self.radioactive_material_time.insert(END, "yyyy/mm/dd, hh:mm:ss")
 
 		self.radioactive_material_time.place(x=300, y=50)
 		self.radioactive_material_button.place(x=330, y=70)
@@ -102,5 +102,5 @@ class Interface():
 			return
 
 		self.radioactive_material_output.delete(1.0, "end")
-		self.radioactive_material_output.insert(1.0, value)
+		self.radioactive_material_output.insert(1.0, str(value) + " GBq")
 			

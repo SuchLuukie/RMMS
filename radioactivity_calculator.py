@@ -34,7 +34,7 @@ class Calculator():
 	return: array of 7 elements of strings
 	"""
 	def get_daily_tc99(self):
-		time = datetime.datetime(2020, 10, 5, 8, 0, 0)
+		time = datetime.datetime(2020, 10, 19, 8, 0, 0)
 		mo99 = self.get_current_mo99(time)
 
 		array = []

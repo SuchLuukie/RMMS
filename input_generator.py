@@ -20,7 +20,7 @@ class Generator():
 		start_value = f"{str(random.randint(300, 900))} GBq"
 		creation_time = self.random_time("00:30", "02:30").split(":")
 		arrival_time = self.random_time("04:00", "07:00").split(":")
-		date = datetime.datetime(2020, 10, 5).date()
+		date = datetime.datetime(2020, 10, 19).date()
 
 
 		creation_time = datetime.datetime.combine(date, datetime.time(int(creation_time[0]), int(creation_time[1])))
@@ -43,7 +43,7 @@ class Generator():
 		schedule = schedule["schedule"]
 
 
-		date = datetime.datetime(2020, 10, 4).date()
+		date = datetime.datetime(2020, 10, 19).date()
 		for day in schedule:
 			date += datetime.timedelta(1)
 			time = "08:00"
@@ -69,7 +69,6 @@ class Generator():
 
 		with open("patients.json", "w") as f:
 			json.dump(schedule, f, indent=4)
-
 
 
 	"""

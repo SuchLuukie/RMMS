@@ -1,16 +1,17 @@
 # RMMS
 Radioactive Medicine Management System
-RMMS Is an simulated nuclear medicine management system.
+This project is a simulation of a radioactive material management system.
+It factors in decay rates/half lifes. Simulated appointments with patients and injection sizes.
 
 
-#Libraries Used:
-Datetime, for keeping track of time across components.
-Tkinter, used for the user interface.
-JSON, Datastructure.
-Matplotlib/numpy, used for graphs.
+# Libraries Used:
+ * Datetime, for keeping track of time across components.
+ * Tkinter, used for the user interface.
+ * JSON, Datastructure.
+ * Matplotlib/numpy, used for graphs.
 
 
-#How it works.
+# How it works.
 It generates random inputs for the program to use.
 
 Then it checks if the given amount of radioactive material is sufficient to treat all the patients.
